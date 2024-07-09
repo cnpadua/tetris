@@ -1,4 +1,13 @@
+body {
+    display:flex;
+    justify-content: center;
+}
+
 .tetris-container {
+    border: 2px dashed black;
+    padding: 20px;
+    width: 50vw;
+
     display: flex;
     justify-content: center;
 }
@@ -8,12 +17,18 @@
 
     display: flex;
     flex-direction: column;
+
+    flex: 1;
 }
 
 .playfield {
     border: 1px solid red;
+
+    flex-grow: 1.75;
 }
 
 .game-info {
     border: 1px solid green;
+
+    flex: 1;
 }
