@@ -1,0 +1,19 @@
+.tetris-container {
+    display: flex;
+    justify-content: center;
+}
+
+.stats {
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.playfield {
+    border: 1px solid red;
+}
+
+.game-info {
+    border: 1px solid green;
+}
